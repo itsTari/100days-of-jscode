@@ -1,0 +1,52 @@
+:root {
+    --mainWhite: #f2fdff;
+    --mainBlue: #3e92cc;
+  }
+  /* .max-height {
+    min-height: 100vh;
+  } */
+  body {
+    background: var(--mainWhite);
+  }
+  .img-container {
+    /* width: 800px; */
+    min-height: 80vh;
+    background: url("../img/contBcg-0.jpeg") center/cover fixed no-repeat;
+    border: 0.5rem solid var(--mainBlue);
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  
+  .btn-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: var(--mainBlue);
+    color: var(--mainWhite) ;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid var(--mainBlue);
+    font-size: 1.7rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .btn-left:hover {
+    background: var(--mainWhite);
+    color: var(--mainBlue);
+  }
+  .btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: var(--mainBlue);
+    color: var(--mainWhite) ;
+    font-size: 1.7rem;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid var(--mainBlue);
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .btn-right:hover {
+    background: var(--mainWhite);
+    color: var(--mainBlue);
+  }
+  
